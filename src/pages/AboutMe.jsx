@@ -12,17 +12,19 @@ const AboutMe = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>A Little Bit About Me</p>
-          </div>
-          <div>
+        <div className="max-w-[1000px] w-full px-4 text-xl font-bold">
             <p>
-              My name is Osvaldo, but most people either call me 'oz' or 'valdo'. I'm a full stack developer with a passion to create interactive applications and experiences on the web. 
-              <br></br>
-              On my free time I like to draw anime characters and poorly animate them using a program called live2D.
+              My name is Osvaldo, but most people either call me 'oz', 'ozzy', or
+              'valdo'. I'm a Full Stack Developer with a background in design.
+              Applying the same critical and creative thinking as a designer to
+              writing clean and scalable code as a programmer. Solving problems and generating
+              results through a creative outlook and creating intuitive
+              applications and experiences on the web is my passion.
             </p>
-          </div>
+            <br/>
+            <p>
+              Outside of tech you can either find me doodling on a tablet or at my local race track going sideways.
+            </p>
         </div>
       </div>
     </div>
