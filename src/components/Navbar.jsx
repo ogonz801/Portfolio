@@ -17,12 +17,13 @@ const Navbar = () => {
         <img src={Logo} alt='logo'></img>
       </div>
 
-      <ul className='hidden md:flex'>
+      <ul className='main hidden md:flex'>
         <li><Link to='home' smooth={true} duration={550}>Home</Link></li>
         <li><Link to='about' smooth={true} duration={550}>About</Link></li>
         <li><Link to='skills' smooth={true} duration={550}>Skills</Link></li>
         <li><Link to='projects' smooth={true} duration={550}>Projects</Link></li>
         <li><Link to='contact' smooth={true} duration={550}>Contact</Link></li>
+        <li className='resume-button'><a href='https://docs.google.com/document/d/1Gjy9qQwa36cXAqIFo3B17GJ5DlhKWtrXcQ0vGGHpdoo/edit?usp=sharing'>Resume</a></li>
       </ul>
 
       <div onClick={handleClick} className='md:hidden z-10 color-[#ccd6f6]'>
@@ -35,6 +36,7 @@ const Navbar = () => {
         <li><Link onClick={handleClick} to='skills' smooth={true} duration={550}>Skills</Link></li>
         <li><Link onClick={handleClick} to='projects' smooth={true} duration={550}>Projects</Link></li>
         <li><Link onClick={handleClick} to='contact' smooth={true} duration={550}>Contact</Link></li>
+        <li className='mobile-resume-button'><a href='https://docs.google.com/document/d/1Gjy9qQwa36cXAqIFo3B17GJ5DlhKWtrXcQ0vGGHpdoo/edit?usp=sharing'>Resume</a></li>
       </ul>
 
     </nav>

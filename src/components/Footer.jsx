@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="pb-[50px] w-full flex justify-center items-center px-4 bg-[#0a192f] text-gray-300 text-5xl">
-      <ul className="md:flex">
+    <footer className="pb-[50px] w-full flex justify-center items-center bg-[#0a192f] text-gray-300 text-4xl">
+      <ul className='flex flex-row'>
         <li >
           <a href="https://www.linkedin.com/in/ogonz801/" className='hover:text-pink-500'>
             <FaLinkedin />

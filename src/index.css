@@ -18,4 +18,10 @@
     .container-color {
         @apply  bg-[#0a192f] text-gray-300
     }
+    .resume-button a {
+        @apply bg-pink-500 rounded-lg p-2.5 hover:bg-pink-700
+    }
+    .mobile-resume-button a {
+        @apply bg-pink-500 rounded-lg p-2.5 hover:bg-pink-700
+    }
 }
